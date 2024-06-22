@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>DOM</h1>
+    <p id="insert".str> </p>
+    <p id="insert".animals>  </p>
+    <div class="example ">
+        <p>This is a paragraph.</p>
+      </div>
+      <br>
+      <div class="example color">
+        <p>This is a paragraph.</p>
+      </div>
+      <br>
+      <div class="example color">
+        <p>This is a paragraph.</p>
+      </div>
+
+      <p class="one" ></p>
+    <p class="two" ></p>
+    <p class="three"></p>
+
+
+    <p class="parra">parra1</p>
+    <p class="parra">parra2</p>
+    <p class="parra">para3</p>
+    <p class="parra">parra4</p>
+    <button onclick= "myfunc()"">show animal</button>
+      
+    <script>
+       
+       // let c={cname:"maruti",
+         //   ccolour:"white"
+       // }
+        for(x in c)
+        {
+        document.write(c[x])
+    let str="I am big"
+    let n=str.slice(2,5)
+    console.log(n)
+    console.log(str.substring(1,3))
+    console.log(str.substr(1,4))
+        }
+    fun()
+    function fun()
+    {
+        var flw=["lily,rose,sunflower"]
+        console.log(flw)
+    }
+  
+        const Pen={
+            name:"Raynold",
+            price:25,
+            color: "blue"
+
+        }
+        console.log("I am silk","i bought",Pen.name,"Its price is",Pen.price)
+        console.log(`I am silk i bought ${Pen.name}  Its price is ${Pen.price} `)
+        let name1="Sne"
+        let name2="Sne"
+        if(name1==name2) {console.log("Yes")}
+        else{console.log("No")}
+        name1 == name2 ? console.log("yes") : console.log("no")
+        alert("hello welcome");
+        
+        
+        let name=[1,2,3,4,5,6,7,8,9,10,11,12,13,14]
+        let che = name.splice(2,6,9);
+        console.log(che)
+        
+        const animals =["tiger","drAGON","sloth"]
+        let ani= animals.splice(1,2,"cat","dog","rabbit")
+        console.log(ani)
+        let str="I am learning DOM"
+        document.getElementById("insert").innerText=animals
+        document.getElementById("insert").innerText=str
+        
+        const collection = document.getElementsByClassName("example color");
+        collection[0].style.backgroundColor = "red";
+        collection[1].innerHTML="line";
+
+
+        
+        for(i in animals){
+           const one=document.getElementsByClassName("one")[i].innerHTML=animals[i]
+        }
+         
+        
+        function myfunc()
+        {
+            const animal =["tiger","lion","cat"]
+            for(let i=0;i<animals.lemgth;i++)
+            {
+                document.getElementsByClassName("parra")[i].innerHTML=animal[i]
+            }
+        }
+    
+
+
+    </script>
+</body>
+</html>

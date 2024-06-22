@@ -1,0 +1,5 @@
+let car={
+    carname:"Maruti",
+    carcolor: "black",
+}
+    document.write(car[carname])

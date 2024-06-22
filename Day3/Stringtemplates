@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p class="parra">parra1</p>
+    <p class="parra">parra2</p>
+    <p class="parra">para3</p>
+    <p class="parra">parra4</p>
+    <button onclick= "myfunc()"">show animal</button>
+    <script>
+        function myfunc()
+        {
+            const animal =["tiger","lion","cat"]
+            for(let i=0;i<animals.lemgth;i++)
+            {
+                document.getElementsByClassName("parra")[i].innerHTML=animal[i]
+            }
+        }
+    </script>
+    
+</body>
+</html>
+  

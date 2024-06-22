@@ -1,0 +1,27 @@
+ div{
+            width: 500px;
+            height: 50px;
+            display: inline;      
+          }
+        #one{
+            background-color: rgb(202, 202, 18);
+            position:static;
+        }
+        #two{
+            background-color: blueviolet;
+            position: relative;
+        }
+        #three{
+            background-color: rgb(43, 226, 98);
+            position:static;
+        }
+        #four{
+            background-color: rgb(43, 168, 226);
+            position: static;
+            
+        }
+        #five{
+            background-color: rgb(226, 43, 67);
+            position: relative;
+
+        }

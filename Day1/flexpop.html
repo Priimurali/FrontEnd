@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="cont"> 
+        <div id="one">hello</div>
+        <div id="two">folks</div>
+        <div id="three">let's</div>
+        <div id="four">Rock & Roll</div>
+    </div>
+    <style>
+        #cont{
+            height: 500px;
+            width: 600px;
+            flex-direction:column ;
+            border: 2px solid black;
+        }
+        div{
+            display: flex;
+            height: 100px;
+            width: 100px;
+            align-content:center;
+            transition-property: all;
+            transition-duration: 2s;
+            transition-timing-function: ease-in;
+            position: relative;
+            transition-delay: 1s;
+            justify-content: space-evenly;
+            top: 10px;
+            
+        }
+        div:hover{
+            width: 200px;
+            height: 100px;
+            transition: all;
+            background-color: aqua;
+            border: 1px solid black;
+            font-family: cursive;
+            transform: scaleY(2) ;
+
+        }
+         #one{
+            
+            background-color: rgb(18, 141, 172);
+            
+         }
+         #two{
+            
+            background-color: rgb(18, 172, 26);
+            
+         }
+         #three{
+            
+            background-color: rgb(172, 18, 18);
+            
+         }
+         #four{
+            
+            background-color: rgb(162, 172, 18);
+            
+         }
+    
+    </style>
+</body>
+</html>
